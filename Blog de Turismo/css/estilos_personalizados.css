@@ -1,0 +1,43 @@
+body{
+  background-image: url(../img/fondo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}
+.navegador {
+  margin-top: 3rem;
+}
+.boton-navegador {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.logo {
+  border-radius: 25px;
+}
+
+.contenedor-logo{
+  margin-top: 3rem;
+}
+
+.redes-sociales{
+  filter: brightness(800%);
+  margin-top: 3rem;
+}
+
+.foto_galeria{
+  margin-top: 3rem;
+}
+
+.foto_galeria_central{
+  margin-top: 6rem;
+}
+
+
+.iconos{
+  margin-left: 0.5rem;
+}
+
+p {
+  text-align: justify;
+}
