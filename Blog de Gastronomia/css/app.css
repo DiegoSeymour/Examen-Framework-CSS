@@ -27,3 +27,12 @@ body{
 .boton_busqueda{
   background-color: red;
 }
+
+.favoritos2{
+  margin-top: 1rem;
+}
+
+img[src^="img/plato"]{
+  background-color: white;
+  padding: 0.3rem;
+}
