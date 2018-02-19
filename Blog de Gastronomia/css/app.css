@@ -23,3 +23,7 @@ body{
 .bloque_izq{
   background-color: #FDE7FB;
 }
+
+.boton_busqueda{
+  background-color: red;
+}
