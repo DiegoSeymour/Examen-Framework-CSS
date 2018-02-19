@@ -1,0 +1,25 @@
+body{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.contenedor_central{
+  background-color: rgba(89, 89, 89, 0.62);
+}
+
+.cocinando{
+  border-right: thin solid white;
+}
+.titulo_blog {
+  color: white;
+}
+
+.slogan_blog{
+  color: white;
+  text-align: right;
+}
+
+.bloque_izq{
+  background-color: #FDE7FB;
+}
