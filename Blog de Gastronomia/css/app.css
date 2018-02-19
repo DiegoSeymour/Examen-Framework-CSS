@@ -1,6 +1,7 @@
 body{
   background-image: url(../img/fondo.jpg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100%;
 }
 
@@ -22,6 +23,7 @@ body{
 
 .bloque_izq{
   background-color: #FDE7FB;
+  color: #C40000;
 }
 
 .boton_busqueda{
@@ -35,4 +37,35 @@ body{
 img[src^="img/plato"]{
   background-color: white;
   padding: 0.3rem;
+}
+
+.imagen_perfil{
+  border-radius: 100%;
+}
+
+.fondo{
+  background-color: red;
+}
+
+.fondo2{
+  background-color: green;
+}
+
+.comentario{
+  border: 1px solid #AEAEAE;
+  border-radius: 30px;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  color: #727272;
+  font-size: 15px;
+}
+
+.parrafo_comentario{
+  margin-left: 1rem;
+}
+
+.entrada_texto{
+  margin-top: 2rem;
+  color: black;
+  font-size: 15px;
 }
