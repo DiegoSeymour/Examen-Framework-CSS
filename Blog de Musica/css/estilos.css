@@ -1,0 +1,11 @@
+body{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contenedor{
+  background-color: white;
+  height: 100px;
+}
