@@ -7,5 +7,19 @@ body{
 
 .contenedor{
   background-color: white;
-  height: 100px;
+  height: 300px;
+  border-radius: 25px;
+  margin-top: -50px;
+}
+
+.logo{
+  margin-top: 6rem;
+}
+
+.fondo{
+  background-color: red;
+}
+
+.fondo1{
+  background-color: green;
 }
