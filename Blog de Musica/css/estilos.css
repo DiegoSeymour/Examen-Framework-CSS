@@ -8,15 +8,16 @@ body
 
 header
 {
-  background-color: white;
+  background-image: url(../images/fondo_header.jpg);
 }
 
-.mynavbar
+.navegador
 {
   background-color: 	#d65600;
   min-height: 15%;
+  border: none !important;
 }
-.mynavbar li
+.navegador li
 {
   text-align: center;
 }
@@ -43,16 +44,16 @@ div.main
 {
   color: white;
 }
-.mynavbar .nav li a:hover
+.navegador .nav li a:hover
 {
   color: white;
   background-color: #ff9a57;
 }
-.mynavbar .nav li a
+.navegador .nav li a
 {
   color: white;
 }
-.leftCol li:hover
+.col_izq li:hover
 {
   background-color: gray;
 }
@@ -62,7 +63,7 @@ div.main
   margin-top: 6%;
   margin-bottom: 3%;
 }
-.imgCom
+.perfil
 {
   width: 80px;
   height: 80px;
@@ -73,16 +74,16 @@ div.main
   height: 80px;
   display: inline;
 }
-.leftCol
+.col_izq
 {
   padding: 5px;
   color: black;
 }
-.leftCol li
+.col_izq li
 {
   background-color: #F8F8FF;
 }
-.leftCol div
+.col_izq div
 {
   margin-bottom: 5px;
 }
@@ -94,13 +95,14 @@ article .row
 {
   padding: 5px 5px 5px 10px;
 }
+
 @media (min-width: 768px)
 {
-  .topMenu
+  .menu_alto
   {
     width: 100%;
   }
-  .topMenu li
+  .menu_alto li
   {
     width: 16%;
   }
